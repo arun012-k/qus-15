@@ -1,0 +1,118 @@
+.example1 {
+    width:100%;
+    margin: auto;
+    display:flex;
+    line-height: 10px;
+    color: whitesmoke;
+    background-color:black;
+}
+.example1 ul li{
+    list-style: none;
+    display:inline-block;
+    margin:5px 0px 1px 250px;
+    left: 20px;
+}
+.example1 ul li a{
+    color:whitesmoke
+}
+img{
+    width: 90px;
+}
+.example2{
+    background-color: rgb(45, 172, 252);
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 90px;
+    color:whitesmoke;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+    font-family: kulim park ,sans-serif;
+}
+.example2 ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.example2 ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.example2 ul li a:hover{
+    color: darkblue;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(45, 172, 252);
+    border-radius: 10px;
+    min-width: 110px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    transition-duration: 0.4s;
+  }
+.dropdown-content a {
+    color: black;
+    padding: 2px 22px;
+    border-radius: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+.dropdown-content a:hover {
+    background-color: rgba(0,0,0,0.2);
+} 
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.example3{
+    background-color:rgb(255, 245, 226);
+    width:100%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    line-height:5px;
+}
+.example3 ul li{
+    list-style: none;
+    display:inline-block;
+    margin:5px 0px 1px 130px;
+    color: black;
+}
+.example4{
+    background-color: rgb(0, 47, 255);
+    width:100%;
+    margin: auto;
+    display:flex;
+    align-items: center;
+    line-height: 1000px;
+    justify-content:space-between;
+}
+.example4 .example5 img{
+    padding-left: auto;
+    width:1100px;
+    height:400px
+}
+.example4 .example6 img{
+    padding-right: auto;
+    width:400px;
+    height:400px
+}
+.example4.example9 {
+    background-color:rgb(0, 47, 255) ;
+}
+.example7{
+    background-color: rgb(0, 47, 255);
+}
+
+.example8{
+    background-color:rgb(0, 47, 255) ;
+}
+h2{
+    color: whitesmoke;
+}
